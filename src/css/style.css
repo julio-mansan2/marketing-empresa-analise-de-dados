@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+body {
+
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+
+}
+
+main {
+
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.image-mobile {
+
+    display: none;
+
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.info {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 550px;
+    max-height: 446px;
+    background-color: hsl(244, 38%, 16%);
+    padding: 60px 100px 60px 80px;
+    border-radius: 15px 0 0 15px;
+
+}
+
+.info .description h2 {
+
+    font: 700 30px 'Lexend Deca', sans-serif;
+    color: #fff;
+    margin-bottom: 30px;
+
+}
+
+.info .description span {
+
+    color: hsl(277, 64%, 61%);
+
+}
+
+.info .description p {
+
+    font: 400 18px 'Inter', sans-serif;
+    color: hsla(0, 0%, 100%, 0.5);
+
+}
+
+
+
+.contadores ul {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contadores li h2 {
+
+    font: 700 26px 'Lexend Deca', sans-serif;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+
+.contadores li p {
+
+    text-transform: uppercase;
+    font: 400 14px 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.5);
+
+}
+
+
+.image-desktop {
+
+    filter: opacity(0.4) drop-shadow(0 0 0 hsl(277, 64%, 61%));
+    border-radius: 0 15px 15px 0;  
+
+}
+
+
+
+
+
