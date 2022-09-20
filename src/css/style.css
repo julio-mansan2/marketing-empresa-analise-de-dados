@@ -47,7 +47,7 @@ main {
 
 .info .description h2 {
 
-    font: 700 30px 'Lexend Deca', sans-serif;
+    font: 700 35px 'Lexend Deca', sans-serif;
     color: #fff;
     margin-bottom: 30px;
 
@@ -94,7 +94,7 @@ main {
 
 .image-desktop {
 
-    filter: opacity(0.4) drop-shadow(0 0 0 hsl(277, 64%, 61%));
+    filter: opacity(0.3) drop-shadow(0 0 0 hsl(277, 64%, 61%));
     border-radius: 0 15px 15px 0;  
 
 }
